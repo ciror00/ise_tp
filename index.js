@@ -31,7 +31,7 @@ app.get('/', function(req, res) {
  respuesta = {
   error: true,
   codigo: 200,
-  mensaje: 'Endpoint base',
+  mensaje: 'Servidor online',
   response: []
  };
  res.send(respuesta);
